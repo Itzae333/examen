@@ -28,7 +28,7 @@ public class RolesService {
             } else {
                 Rol nuevoRol = new Rol();
                 nuevoRol.setNombre(rolNombre.trim());
-                rolesFacade.crearRol(rol);
+                rolesFacade.crearRol(nuevoRol);
                 roles.add(nuevoRol);
             }
         }
